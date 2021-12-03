@@ -111,3 +111,9 @@ ion-note {
 ion-item.selected {
   --color: var(--ion-color-primary);
 } 
+
+.logo {
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
