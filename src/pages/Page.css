@@ -2,21 +2,21 @@
   font-size: 22px;
   margin-top: -15px;
   margin-left: 15px;
-  margin-right: 15px;  
+  margin-right: 15px;
 }
 
 .green-title {
-  color:#207f4a;  
+  color: #207f4a;
 }
 
 .sub-title {
   font-size: 14px;
-  color:gray;
+  color: gray;
   margin-left: 15px;
 }
 
 .home-pic {
-  margin-top: -20px;  
+  margin-top: -20px;
 }
 
 .home-card {
@@ -31,7 +31,7 @@
   margin-right: 15px;
 }
 
-.par-button{
+.par-button {
   --background: #7d7e3d;
   margin-top: 20px;
 }
@@ -40,29 +40,37 @@
   font-size: 9px;
   margin-top: 20px;
   margin-left: 11px;
-  color:white;
+  color: white;
 }
 
-.user-single{
-  border-radius: 50% !important;  
+.user-single {
+  border-radius: 50% !important;
 }
 
-.single-title{
+.single-title {
   text-align: center;
 }
 
-.single-subtitle{
+.single-subtitle {
   text-align: center;
   font-size: 14px;
   margin-top: -10px;
 }
 
-.single-text{  
+.single-text {
   font-size: 14px;
   margin-top: -10px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .single-iontext {
   margin-top: 18px;
+}
+
+.single-button {
+  text-align: center;
+}
+
+.products-title {
+  width:60px;
 }

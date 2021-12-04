@@ -7,6 +7,15 @@ import {
   IonTitle,
   IonToolbar,
   IonImg,
+  IonGrid,
+  IonRow,
+  IonCard,
+  IonCol,
+  IonCardHeader,
+  IonCardTitle,
+  IonCardSubtitle,
+  IonInput,
+  IonItem
 } from "@ionic/react";
 import "./Page.css";
 
@@ -29,6 +38,54 @@ const Products: React.FC = () => {
           alt="home"
           className="home-pic"
         />
+        <IonItem>
+            <IonInput placeholder="Digite seu Estado"></IonInput>
+        </IonItem>
+        <IonGrid>
+          <IonRow>
+            <IonCol>
+              <IonCard routerLink="/partners-list">
+                <IonImg src="/assets/img/lettuce.jpg" alt="button" />
+                <IonCardHeader>
+                  <IonCardSubtitle>Cuiabá</IonCardSubtitle>
+                  <IonCardTitle>Alface</IonCardTitle>
+                </IonCardHeader>
+              </IonCard>
+            </IonCol>
+            <IonCol>
+              <IonCard routerLink="/partners-list">
+                <IonImg src="/assets/img/soja.jpg" alt="button" />
+                <IonCardHeader>
+                  <IonCardSubtitle>Cuiabá</IonCardSubtitle>
+                  <IonCardTitle>Soja</IonCardTitle>
+                </IonCardHeader>
+              </IonCard>
+            </IonCol>
+          </IonRow>
+          </IonGrid>
+          <IonGrid>
+          <IonRow>
+            <IonCol>
+              <IonCard routerLink="/partners-list">
+                <IonImg src="/assets/img/limao.jpg" alt="button" />
+                <IonCardHeader>
+                  <IonCardSubtitle>Cuiabá</IonCardSubtitle>
+                  <IonCardTitle className="products-title">Limão</IonCardTitle>
+                </IonCardHeader>
+              </IonCard>
+            </IonCol>
+            <IonCol>
+              <IonCard routerLink="/partners-list">
+                <IonImg src="/assets/img/cebola.jpg" alt="button" />
+                <IonCardHeader>
+                  <IonCardSubtitle>Cuiabá</IonCardSubtitle>
+                  <IonCardTitle>Cebola</IonCardTitle>
+                </IonCardHeader>
+              </IonCard>
+            </IonCol>
+          </IonRow>
+          </IonGrid>
+  
       </IonContent>
     </IonPage>
   );

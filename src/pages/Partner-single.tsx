@@ -1,4 +1,4 @@
-import {  
+import {
   IonButtons,
   IonContent,
   IonHeader,
@@ -9,6 +9,7 @@ import {
   IonImg,
   IonCard,
   IonText,
+  IonButton,
 } from "@ionic/react";
 import "./Page.css";
 
@@ -33,10 +34,21 @@ const PartnersSingle: React.FC = () => {
         <h1 className="single-title">John Doe</h1>
         <h4 className="single-subtitle">Prestador de Serviços</h4>
         <IonText>
-        <p className="single-text single-iontext"> CPF: 555555555555</p>
-        <p className="single-text"> Cidade: Cuiabá, Mato Grosso</p>
-        <p className="single-text"> Serviços: Serviço 1, Serviço 2, Serviço 3. </p>
-        </IonText>       
+          <p className="single-text single-iontext"> CPF: 555555555555</p>
+          <p className="single-text"> Cidade: Cuiabá, Mato Grosso</p>
+          <p className="single-text">
+            {" "}
+            Serviços: Serviço 1, Serviço 2, Serviço 3.{" "}
+          </p>
+        </IonText>
+        <div className="single-button">
+          <IonButton color="success" className="filter-button">
+            Adicionar
+          </IonButton>
+          <IonButton color="danger" className="filter-button">
+            Remover
+          </IonButton>
+        </div>
       </IonContent>
     </IonPage>
   );

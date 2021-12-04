@@ -11,7 +11,7 @@ import {
   IonTitle,
   IonToolbar,
   IonImg,
-  IonButton  
+  IonButton,
 } from "@ionic/react";
 import "./Page.css";
 
@@ -34,37 +34,56 @@ const Partners: React.FC = () => {
           alt="home"
           className="home-pic"
         />
-       <IonButton color="secondary" className="filter-button">Produtor</IonButton>
-    <IonButton color="success" className="filter-button">Comprador</IonButton>
-    <IonButton color="danger" className="filter-button">Prestador</IonButton>      
+        <IonButton color="secondary" className="filter-button">
+          Produtor
+        </IonButton>
+        <IonButton color="success" className="filter-button">
+          Comprador
+        </IonButton>
+        <IonButton color="danger" className="filter-button">
+          Prestador
+        </IonButton>
         <IonList>
-        <IonItem routerLink="/partners-single">
-          <IonAvatar  className="user-avatar"><IonImg src="/assets/img/prod-icon.jpg" alt="avatar" /></IonAvatar>
-          <IonLabel>
-            <h2>John Doe</h2>
-            <h3>Produtor</h3>
-            <p>	Cuiabá, Mato Grosso</p>
-          </IonLabel>
-        </IonItem>
-        <IonItem>
-          <IonAvatar  className="user-avatar"><IonImg src="/assets/img/for-icon.jpg" alt="avatar" /></IonAvatar>
-          <IonLabel>
-            <h2>John Doe</h2>
-            <h3>Prestador de Serviços</h3>
-            <p>	Cuiabá, Mato Grosso</p>
-          </IonLabel>
-        </IonItem>
-        <IonItem>
-          <IonAvatar  className="user-avatar"><IonImg src="/assets/img/comp-icon.jpg" alt="avatar" /></IonAvatar>
-          <IonLabel>
-            <h2>Jane Doe</h2>
-            <h3>Compradora</h3>
-            <p>	Cuiabá, Mato Grosso</p>
-          </IonLabel>
-        </IonItem>
-      </IonList>
-      <IonButton routerLink="/partners-list" expand="block" fill="solid" className="par-button">Adicionar Parceiros</IonButton>
-      </IonContent>      
+          <IonItem routerLink="/partners-single">
+            <IonAvatar className="user-avatar">
+              <IonImg src="/assets/img/prod-icon.jpg" alt="avatar" />
+            </IonAvatar>
+            <IonLabel>
+              <h2>John Doe</h2>
+              <h3>Produtor</h3>
+              <p> Cuiabá, Mato Grosso</p>
+            </IonLabel>
+          </IonItem>
+          <IonItem routerLink="/partners-single">
+            <IonAvatar className="user-avatar">
+              <IonImg src="/assets/img/for-icon.jpg" alt="avatar" />
+            </IonAvatar>
+            <IonLabel>
+              <h2>John Doe</h2>
+              <h3>Prestador de Serviços</h3>
+              <p> Cuiabá, Mato Grosso</p>
+            </IonLabel>
+          </IonItem>
+          <IonItem routerLink="/partners-single">
+            <IonAvatar className="user-avatar">
+              <IonImg src="/assets/img/comp-icon.jpg" alt="avatar" />
+            </IonAvatar>
+            <IonLabel>
+              <h2>Jane Doe</h2>
+              <h3>Compradora</h3>
+              <p> Cuiabá, Mato Grosso</p>
+            </IonLabel>
+          </IonItem>
+        </IonList>
+        <IonButton
+          routerLink="/partners-list"
+          expand="block"
+          fill="solid"
+          className="par-button"
+        >
+          Adicionar Parceiros
+        </IonButton>
+      </IonContent>
     </IonPage>
   );
 };
