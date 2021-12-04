@@ -19,3 +19,19 @@
   margin-top: -20px;  
 }
 
+.home-card {
+  box-shadow: none;
+}
+
+.home-button {
+  width: 100%;
+}
+
+.user-avatar {
+  margin-right: 15px;
+}
+
+.par-button{
+  --background: #7d7e3d;
+  margin-top: 20px;
+}

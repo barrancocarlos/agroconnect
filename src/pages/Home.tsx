@@ -1,4 +1,4 @@
-import { IonRouterLink, IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonText, IonTitle, IonToolbar, IonImg, IonGrid, IonRow, IonCol } from '@ionic/react';
+import { IonButtons, IonCard, IonContent, IonHeader, IonMenuButton, IonPage, IonText, IonTitle, IonToolbar, IonImg, IonGrid, IonRow, IonCol } from '@ionic/react';
 import './Page.css';
 
 const Home: React.FC = () => {
@@ -19,13 +19,14 @@ const Home: React.FC = () => {
         </IonHeader>
         <IonText>
           <p className="sub-title">Seja bem-vindo!</p>
-          <p className="title"><span className="green-title">AgroConect</span> loren ipsum sit amur!</p>          
+          <p className="title"><span className="green-title">AgroConnect</span> conectividade na palma de sua mão!</p>          
         </IonText>
         <IonImg src="/assets/img/home-pic.jpg" alt="home" className="home-pic" />      
         <IonGrid>
           <IonRow>
-            <IonCol><IonRouterLink href="/products"><IonImg src="/assets/img/button-veg.jpg" alt="button" className="home-button" /></IonRouterLink> </IonCol>
-            <IonCol><IonImg src="/assets/img/button-par.jpg" alt="button" className="home-button" />  </IonCol>           
+            <IonCol><IonCard routerLink="/products" className="home-card"><IonImg src="/assets/img/button-veg.jpg" alt="button" className="home-button" /></IonCard> </IonCol>
+            <IonCol><IonCard routerLink="/partners" className="home-card"><IonImg src="/assets/img/button-par.jpg" alt="button" className="home-button" /></IonCard> </IonCol>
+       
         </IonRow>
         </IonGrid>       
       </IonContent>
