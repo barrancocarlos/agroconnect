@@ -35,3 +35,34 @@
   --background: #7d7e3d;
   margin-top: 20px;
 }
+
+.filter-button {
+  font-size: 9px;
+  margin-top: 20px;
+  margin-left: 11px;
+  color:white;
+}
+
+.user-single{
+  border-radius: 50% !important;  
+}
+
+.single-title{
+  text-align: center;
+}
+
+.single-subtitle{
+  text-align: center;
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+.single-text{  
+  font-size: 14px;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.single-iontext {
+  margin-top: 18px;
+}

@@ -11,7 +11,7 @@ import {
   IonTitle,
   IonToolbar,
   IonImg,
-  IonButton
+  IonButton  
 } from "@ionic/react";
 import "./Page.css";
 
@@ -34,8 +34,11 @@ const Partners: React.FC = () => {
           alt="home"
           className="home-pic"
         />
+       <IonButton color="secondary" className="filter-button">Produtor</IonButton>
+    <IonButton color="success" className="filter-button">Comprador</IonButton>
+    <IonButton color="danger" className="filter-button">Prestador</IonButton>      
         <IonList>
-        <IonItem>
+        <IonItem routerLink="/partners-single">
           <IonAvatar  className="user-avatar"><IonImg src="/assets/img/prod-icon.jpg" alt="avatar" /></IonAvatar>
           <IonLabel>
             <h2>John Doe</h2>
