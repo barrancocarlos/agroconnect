@@ -11,7 +11,7 @@ import {
   IonTitle,
   IonToolbar,
   IonImg,
-  IonButton,
+  IonButton
 } from "@ionic/react";
 import "./Page.css";
 
@@ -44,7 +44,7 @@ const Partners: React.FC = () => {
           Prestador
         </IonButton>
         <IonList>
-          <IonItem routerLink="/partners-single">
+          <IonItem routerLink="/chat">
             <IonAvatar className="user-avatar">
               <IonImg src="/assets/img/prod-icon.jpg" alt="avatar" />
             </IonAvatar>
@@ -54,7 +54,7 @@ const Partners: React.FC = () => {
               <p> Cuiabá, Mato Grosso</p>
             </IonLabel>
           </IonItem>
-          <IonItem routerLink="/partners-single">
+          <IonItem routerLink="/chat">
             <IonAvatar className="user-avatar">
               <IonImg src="/assets/img/for-icon.jpg" alt="avatar" />
             </IonAvatar>
@@ -64,7 +64,7 @@ const Partners: React.FC = () => {
               <p> Cuiabá, Mato Grosso</p>
             </IonLabel>
           </IonItem>
-          <IonItem routerLink="/partners-single">
+          <IonItem routerLink="/chat">
             <IonAvatar className="user-avatar">
               <IonImg src="/assets/img/comp-icon.jpg" alt="avatar" />
             </IonAvatar>
@@ -74,7 +74,7 @@ const Partners: React.FC = () => {
               <p> Cuiabá, Mato Grosso</p>
             </IonLabel>
           </IonItem>
-        </IonList>
+        </IonList>       
         <IonButton
           routerLink="/partners-list"
           expand="block"

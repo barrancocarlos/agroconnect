@@ -44,7 +44,7 @@ const Products: React.FC = () => {
         <IonGrid>
           <IonRow>
             <IonCol>
-              <IonCard routerLink="/partners-list">
+              <IonCard routerLink="/partners-products">
                 <IonImg src="/assets/img/lettuce.jpg" alt="button" />
                 <IonCardHeader>
                   <IonCardSubtitle>Cuiabá</IonCardSubtitle>
@@ -53,7 +53,7 @@ const Products: React.FC = () => {
               </IonCard>
             </IonCol>
             <IonCol>
-              <IonCard routerLink="/partners-list">
+              <IonCard routerLink="/partners-products">
                 <IonImg src="/assets/img/soja.jpg" alt="button" />
                 <IonCardHeader>
                   <IonCardSubtitle>Cuiabá</IonCardSubtitle>
@@ -66,7 +66,7 @@ const Products: React.FC = () => {
           <IonGrid>
           <IonRow>
             <IonCol>
-              <IonCard routerLink="/partners-list">
+              <IonCard routerLink="/partners-products">
                 <IonImg src="/assets/img/limao.jpg" alt="button" />
                 <IonCardHeader>
                   <IonCardSubtitle>Cuiabá</IonCardSubtitle>
@@ -75,7 +75,7 @@ const Products: React.FC = () => {
               </IonCard>
             </IonCol>
             <IonCol>
-              <IonCard routerLink="/partners-list">
+              <IonCard routerLink="/partners-products">
                 <IonImg src="/assets/img/cebola.jpg" alt="button" />
                 <IonCardHeader>
                   <IonCardSubtitle>Cuiabá</IonCardSubtitle>

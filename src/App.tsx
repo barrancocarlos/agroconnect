@@ -8,6 +8,8 @@ import Profile from './pages/Profile';
 import Partners from './pages/Partners';
 import PartnersList from './pages/Partners-list';
 import PartnersSingle from './pages/Partner-single';
+import PartnersProduct from './pages/Partners-products';
+import Chat from './pages/Chat';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -46,6 +48,10 @@ const App: React.FC = () => {
             <Route path="/partners-list" exact={true} component={PartnersList}>              
             </Route> 
             <Route path="/partners-single" exact={true} component={PartnersSingle}>              
+            </Route> 
+            <Route path="/partners-products" exact={true} component={PartnersProduct}>              
+            </Route> 
+            <Route path="/chat" exact={true} component={Chat}>              
             </Route>                           
           </IonRouterOutlet>
         </IonSplitPane>
