@@ -40,7 +40,7 @@ const PartnersProduct: React.FC = () => {
         </div>
         <IonList>
           <IonListHeader>
-            <p>Produtores de <span className="success-green"> Soja</span> perto de vocé</p>
+            <p>Produtores de <span className="success-green"> Soja</span> perto de você</p>
           </IonListHeader>
           <IonItem routerLink="/partners-single">
             <IonAvatar className="user-avatar">
