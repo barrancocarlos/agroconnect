@@ -34,8 +34,8 @@ const PartnersSingle: React.FC = () => {
         <h1 className="single-title">John Doe</h1>
         <h4 className="single-subtitle">Prestador de Serviços</h4>
         <IonText>
-          <p className="single-text single-iontext"> CPF: 555555555555</p>
-          <p className="single-text"> Cidade: Cuiabá, Mato Grosso</p>
+          <p className="single-text single-iontext"> AgroID: #JD983</p>
+          <p className="single-text"> Cidade: Irati, Paraná</p>
           <p className="single-text">
             {" "}
             Serviços: Serviço 1, Serviço 2, Serviço 3.{" "}
@@ -44,10 +44,7 @@ const PartnersSingle: React.FC = () => {
         <div className="single-button">
           <IonButton color="success" className="filter-button">
             Adicionar
-          </IonButton>
-          <IonButton color="danger" className="filter-button">
-            Remover
-          </IonButton>
+          </IonButton>         
         </div>
       </IonContent>
     </IonPage>

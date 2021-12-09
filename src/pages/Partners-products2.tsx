@@ -15,7 +15,7 @@ import {
 } from "@ionic/react";
 import "./Page.css";
 
-const PartnersProduct: React.FC = () => {
+const PartnersProductA: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
@@ -40,7 +40,7 @@ const PartnersProduct: React.FC = () => {
         </div>
         <IonList>
           <IonListHeader>
-            <h5>Produtores de <span className="success-green"> Soja</span> perto de você</h5>
+            <h5>Produtores de <span className="success-green"> Alface</span> perto de você</h5>
           </IonListHeader>
           <IonItem routerLink="/partners-single">
             <IonAvatar className="user-avatar">
@@ -111,4 +111,4 @@ const PartnersProduct: React.FC = () => {
   );
 };
 
-export default PartnersProduct;
+export default PartnersProductA;

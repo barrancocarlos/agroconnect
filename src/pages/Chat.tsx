@@ -38,7 +38,7 @@ const Chat: React.FC = () => {
             <IonLabel>
               <h2>John Doe</h2>
               <h3>Produtor</h3>
-              <p> Cuiabá, Mato Grosso</p>
+              <p> Irati, Paraná</p>
             </IonLabel>
           </IonItem>
         </IonList>
@@ -48,7 +48,7 @@ const Chat: React.FC = () => {
         </IonItem>
         </div>
         <IonButton
-          routerLink="/partners-list"
+          routerLink="/partners"
           expand="block"
           fill="solid"
           className="par-button"

@@ -31,13 +31,13 @@ const Partners: React.FC = () => {
         <IonHeader collapse="condense"></IonHeader>
         <div><iframe title="myFrame" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3958903.7155643078!2d-57.616242611844!3d-14.304639300402828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sagricola%20em%20mato%20grosso!5e0!3m2!1ses!2sbr!4v1638634531476!5m2!1ses!2sbr" width="100%" height="250" loading="lazy"></iframe></div>
         <IonList>
-          <IonListHeader>Produtores perto de você</IonListHeader>
+          <IonListHeader><h5>Produtores perto de você</h5></IonListHeader>
         <IonItem routerLink="/partners-single">
           <IonAvatar  className="user-avatar"><IonImg src="/assets/img/prod-icon.jpg" alt="avatar" /></IonAvatar>
           <IonLabel>
             <h2>John Doe</h2>
             <h3>Produtor</h3>
-            <p>	Cuiabá, Mato Grosso</p>
+            <p>	Irati, Paraná</p>
           </IonLabel>
         </IonItem>
         <IonItem routerLink="/partners-single">
@@ -45,7 +45,7 @@ const Partners: React.FC = () => {
           <IonLabel>
             <h2>John Doe</h2>
             <h3>Produtor</h3>
-            <p>	Cuiabá, Mato Grosso</p>
+            <p>	Irati, Paraná</p>
           </IonLabel>
         </IonItem>
         <IonItem routerLink="/partners-single">
@@ -53,18 +53,18 @@ const Partners: React.FC = () => {
           <IonLabel>
             <h2>Jane Doe</h2>
             <h3>Produtora</h3>
-            <p>	Cuiabá, Mato Grosso</p>
+            <p>	Irati, Paraná</p>
           </IonLabel>
         </IonItem>
       </IonList>
       <IonList>
-          <IonListHeader>Prestadores de serviço perto de você</IonListHeader>
+          <IonListHeader><h5>Prestadores de serviço perto de você</h5></IonListHeader>
         <IonItem routerLink="/partners-single">
           <IonAvatar  className="user-avatar"><IonImg src="/assets/img/prod-icon.jpg" alt="avatar" /></IonAvatar>
           <IonLabel>
             <h2>John Doe</h2>
             <h3>Prestador de Serviços</h3>
-            <p>	Cuiabá, Mato Grosso</p>
+            <p>	Irati, Paraná</p>
           </IonLabel>
         </IonItem>
         <IonItem routerLink="/partners-single">
@@ -72,7 +72,7 @@ const Partners: React.FC = () => {
           <IonLabel>
             <h2>John Doe</h2>
             <h3>Prestador de Serviços</h3>
-            <p>	Cuiabá, Mato Grosso</p>
+            <p>	Irati, Paraná</p>
           </IonLabel>
         </IonItem>
         <IonItem routerLink="/partners-single">
@@ -80,18 +80,18 @@ const Partners: React.FC = () => {
           <IonLabel>
             <h2>Jane Doe</h2>
             <h3>Prestadora de Serviços</h3>
-            <p>	Cuiabá, Mato Grosso</p>
+            <p>	Irati, Paraná</p>
           </IonLabel>
         </IonItem>
       </IonList>  
       <IonList>
-          <IonListHeader>Compradores perto de você</IonListHeader>
+          <IonListHeader><h5>Compradores perto de você</h5></IonListHeader>
         <IonItem  routerLink="/partners-single">
           <IonAvatar  className="user-avatar"><IonImg src="/assets/img/prod-icon.jpg" alt="avatar" /></IonAvatar>
           <IonLabel>
             <h2>John Doe</h2>
             <h3>Comprador</h3>
-            <p>	Cuiabá, Mato Grosso</p>
+            <p>	Irati, Paraná</p>
           </IonLabel>
         </IonItem>
         <IonItem routerLink="/partners-single">
@@ -99,7 +99,7 @@ const Partners: React.FC = () => {
           <IonLabel>
             <h2>John Doe</h2>
             <h3>Comprador</h3>
-            <p>	Cuiabá, Mato Grosso</p>
+            <p>	Irati, Paraná</p>
           </IonLabel>
         </IonItem>
         <IonItem routerLink="/partners-single">
@@ -107,7 +107,7 @@ const Partners: React.FC = () => {
           <IonLabel>
             <h2>Jane Doe</h2>
             <h3>Compradora</h3>
-            <p>	Cuiabá, Mato Grosso</p>
+            <p>	Irati, Paraná</p>
           </IonLabel>
         </IonItem>
       </IonList>      

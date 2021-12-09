@@ -11,7 +11,8 @@ import {
   IonTitle,
   IonToolbar,
   IonImg,
-  IonButton
+  IonButton,
+  IonListHeader
 } from "@ionic/react";
 import "./Page.css";
 
@@ -34,6 +35,7 @@ const Partners: React.FC = () => {
           alt="home"
           className="home-pic"
         />
+        <IonListHeader><h5>Meus Parceiros</h5></IonListHeader>
         <IonButton color="secondary" className="filter-button">
           Produtor
         </IonButton>
@@ -51,7 +53,7 @@ const Partners: React.FC = () => {
             <IonLabel>
               <h2>John Doe</h2>
               <h3>Produtor</h3>
-              <p> Cuiabá, Mato Grosso</p>
+              <p> Irati, Paraná</p>
             </IonLabel>
           </IonItem>
           <IonItem routerLink="/chat">
@@ -61,7 +63,7 @@ const Partners: React.FC = () => {
             <IonLabel>
               <h2>John Doe</h2>
               <h3>Prestador de Serviços</h3>
-              <p> Cuiabá, Mato Grosso</p>
+              <p> Irati, Paraná</p>
             </IonLabel>
           </IonItem>
           <IonItem routerLink="/chat">
@@ -71,7 +73,7 @@ const Partners: React.FC = () => {
             <IonLabel>
               <h2>Jane Doe</h2>
               <h3>Compradora</h3>
-              <p> Cuiabá, Mato Grosso</p>
+              <p> Irati, Paraná</p>
             </IonLabel>
           </IonItem>
         </IonList>       

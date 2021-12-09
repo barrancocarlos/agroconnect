@@ -9,6 +9,7 @@ import Partners from './pages/Partners';
 import PartnersList from './pages/Partners-list';
 import PartnersSingle from './pages/Partner-single';
 import PartnersProduct from './pages/Partners-products';
+import PartnersProductA from './pages/Partners-products2';
 import Chat from './pages/Chat';
 
 /* Core CSS required for Ionic components to work properly */
@@ -50,6 +51,8 @@ const App: React.FC = () => {
             <Route path="/partners-single" exact={true} component={PartnersSingle}>              
             </Route> 
             <Route path="/partners-products" exact={true} component={PartnersProduct}>              
+            </Route> 
+            <Route path="/partners-products2" exact={true} component={PartnersProductA}>              
             </Route> 
             <Route path="/chat" exact={true} component={Chat}>              
             </Route>                           
