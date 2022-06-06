@@ -1,4 +1,4 @@
-# Ionic Test
+# AgroConnect
 
 ![Alt Text](https://github.com/barrancocarlos/ionic-test/blob/master/src/public/ionic.jpg)
 
@@ -6,7 +6,7 @@ Winner of the 2021 Ideathon Competition. React/Ionic App for farmers networking.
 
 _App screen capture_
 
-![Alt Text](https://github.com/barrancocarlos/ionic-test/blob/master/src/public/assets/img/video.gif)
+![Alt Text](https://github.com/barrancocarlos/agroconnect/blob/main/public/assets/img/video.gif)
 
 
 ## Getting Started
